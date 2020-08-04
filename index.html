@@ -7,15 +7,23 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <div class= "container">
+    <h1>The Helping Hand Project</h1>
+    <div class="row no-gutters">
 
-      <a href="index.html"> Help Yourself</a>
-      <a href= "about.html"> Help Others</a>
-      <a href= "https://google.com">Google</a>
+        <div class="col-md-6 no-gutters">
+          <div class="leftside d-flex justify-content-center align-items-center">
+            <button type="button"  id="getHelpButton" class="btn btn-hy btn-lg">Help Yourself</button>
+          </div>
+        </div>
 
-      <div>Helping Hand Project (sjc) </div>
-    </div> 
-    <h1>welcome to.. (tbd)</h1>
+        <div class="col-md-6 no-gutters">
+          <div class="rightside d-flex justify-content-center align-items-center">
+            <button type="button" onClick="location.href='pages/info.html'" id="helpOthersButton" class="btn btn-ho btn-lg">Help Others</button>
+          </div>
+        </div>
+        
+    </div>
+    </div>
     <button type="button"  id="googleButton" class="btn btn-primary">Google</button>
     <p>  </p>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
