@@ -4,6 +4,4 @@ $( document ).ready(function() {
     function googleButtonClick () {
         window.open("https://google.com");
     }
-
-
-}
+) }
